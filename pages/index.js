@@ -112,7 +112,7 @@ export default function Index() {
 		return () => {
 			clearInterval(timer);
 		};
-	}, [seconds, pomodoro, shortBreak, longBreak, ticking]);
+	}, [seconds, pomodoro, shortBreak, longBreak, ticking, clockTicking, consumedSecond]);
 
 	return (
 		<div className="bg-gray-900 min-h-screen font-inter">
