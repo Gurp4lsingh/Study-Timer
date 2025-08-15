@@ -4,7 +4,7 @@ import Alarm from "../components/Alarm";
 import ModalSetting from "../components/ModalSetting";
 import Navigation from "../components/Navigation";
 import Timer from "../components/Timer";
-import MotivationCard from '../components/motivationcard';
+import MotivationCard from '../components/MotivationCard';
 
 export default function Index() {
 	const [pomodoro, setPomodoro] = useState(25);
